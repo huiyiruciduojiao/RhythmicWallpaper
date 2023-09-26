@@ -1,0 +1,17 @@
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\AudioVisualizer.exe
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\AudioVisualizer.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\AudioVisualizer.deps.json
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\AudioVisualizer.runtimeconfig.json
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\AudioVisualizer.pdb
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\FftSharp.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\NAudio.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\NAudio.Asio.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\NAudio.Core.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\NAudio.Midi.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\NAudio.Wasapi.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\NAudio.WinForms.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\NAudio.WinMM.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\LibAudioVisualizer.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\LibDynamics.dll
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\LibAudioVisualizer.pdb
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\LibDynamics.pdb

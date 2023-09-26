@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AudioVisualizer</id>
+    <version>1.0.0</version>
+    <authors>AudioVisualizer</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="LibAudioVisualizer" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NAudio" version="2.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Debug\net6.0-windows\AudioVisualizer.runtimeconfig.json" target="lib\net6.0-windows7.0\AudioVisualizer.runtimeconfig.json" />
+    <file src="H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Debug\net6.0-windows\AudioVisualizer.dll" target="lib\net6.0-windows7.0\AudioVisualizer.dll" />
+  </files>
+</package>

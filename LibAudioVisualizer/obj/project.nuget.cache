@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pnvKP9m/BzHTgPFq8DrERKf9s22TQEyuGlvgatvY0ztrbe6Z6cYxz/Rh7lKPLq2NDvMxL6c8Ohwb/F+yB5IS1g==",
+  "success": true,
+  "projectFilePath": "H:\\S1\\C#\\AudioVisualizer\\LibAudioVisualizer\\LibAudioVisualizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\fftsharp\\1.1.6\\fftsharp.1.1.6.nupkg.sha512"
+  ],
+  "logs": []
+}

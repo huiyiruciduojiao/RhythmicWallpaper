@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LibAudioVisualizer/1.0.0": {
+        "dependencies": {
+          "FftSharp": "1.1.6",
+          "LibDynamics": "1.0.0"
+        },
+        "runtime": {
+          "LibAudioVisualizer.dll": {}
+        }
+      },
+      "FftSharp/1.1.6": {
+        "runtime": {
+          "lib/net5.0/FftSharp.dll": {
+            "assemblyVersion": "1.1.6.0",
+            "fileVersion": "1.1.6.0"
+          }
+        }
+      },
+      "LibDynamics/1.0.0": {
+        "runtime": {
+          "LibDynamics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibAudioVisualizer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FftSharp/1.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dGUkHaYB2huawqtMWOsqtqspYHVFIux70LDjI/2I08ZkYZ5nLS3NP9AbWxrI+tdw6oLPs8Q/dv8CJzpmoAvj/w==",
+      "path": "fftsharp/1.1.6",
+      "hashPath": "fftsharp.1.1.6.nupkg.sha512"
+    },
+    "LibDynamics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+H:\S1\C#\AudioVisualizer\LibDynamics\bin\Release\net6.0\LibDynamics.deps.json
+H:\S1\C#\AudioVisualizer\LibDynamics\bin\Release\net6.0\LibDynamics.dll
+H:\S1\C#\AudioVisualizer\LibDynamics\bin\Release\net6.0\LibDynamics.pdb
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\LibDynamics.csproj.AssemblyReference.cache
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\LibDynamics.GeneratedMSBuildEditorConfig.editorconfig
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\LibDynamics.AssemblyInfoInputs.cache
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\LibDynamics.AssemblyInfo.cs
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\LibDynamics.csproj.CoreCompileInputs.cache
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\LibDynamics.dll
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\refint\LibDynamics.dll
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\LibDynamics.pdb
+H:\S1\C#\AudioVisualizer\LibDynamics\obj\Release\net6.0\ref\LibDynamics.dll

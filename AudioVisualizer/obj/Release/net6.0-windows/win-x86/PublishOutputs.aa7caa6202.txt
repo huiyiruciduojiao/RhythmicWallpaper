@@ -1,0 +1,4 @@
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\win-x86\AudioVisualizer.pdb
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\win-x86\LibAudioVisualizer.pdb
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\win-x86\LibDynamics.pdb
+H:\S1\C#\AudioVisualizer\AudioVisualizer\bin\Release\net6.0-windows\publish\win-x86\AudioVisualizer.exe

@@ -1,0 +1,15 @@
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\bin\Debug\net6.0\LibAudioVisualizer.deps.json
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\bin\Debug\net6.0\LibAudioVisualizer.dll
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\bin\Debug\net6.0\LibAudioVisualizer.pdb
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\bin\Debug\net6.0\LibDynamics.dll
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\bin\Debug\net6.0\LibDynamics.pdb
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.csproj.AssemblyReference.cache
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.GeneratedMSBuildEditorConfig.editorconfig
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.AssemblyInfoInputs.cache
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.AssemblyInfo.cs
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.csproj.CoreCompileInputs.cache
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.csproj.CopyComplete
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.dll
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\refint\LibAudioVisualizer.dll
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\LibAudioVisualizer.pdb
+H:\S1\C#\AudioVisualizer\LibAudioVisualizer\obj\Debug\net6.0\ref\LibAudioVisualizer.dll
