@@ -1,0 +1,195 @@
+﻿using System.Net.NetworkInformation;
+
+<<<<<<< HEAD
+namespace AudioWallpaper {
+=======
+namespace AudioVisualizer {
+>>>>>>> 5cb18e9cc33bf9825472ca3181da76afddd9de36
+    partial class MainWindow {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent() {
+            components = new System.ComponentModel.Container();
+<<<<<<< HEAD
+            drawingPanel = new Panel();
+            dataTimer = new System.Windows.Forms.Timer(components);
+            drawingTimer = new System.Windows.Forms.Timer(components);
+=======
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
+            drawingPanel = new Panel();
+            dataTimer = new System.Windows.Forms.Timer(components);
+            drawingTimer = new System.Windows.Forms.Timer(components);
+            contextMenuStripSystemTray = new ContextMenuStrip(components);
+            SettingSToolStripMenuItem = new ToolStripMenuItem();
+            ReStartAPPRToolStripMenuItem = new ToolStripMenuItem();
+            ExitWallpaperToolStripMenuItem = new ToolStripMenuItem();
+            AboutUsToolStripMenuItem = new ToolStripMenuItem();
+            notifyIconSystemTray = new NotifyIcon(components);
+            contextMenuStripSystemTray.SuspendLayout();
+>>>>>>> 5cb18e9cc33bf9825472ca3181da76afddd9de36
+            SuspendLayout();
+            // 
+            // drawingPanel
+            // 
+<<<<<<< HEAD
+            drawingPanel.AutoSize = true;
+=======
+>>>>>>> 5cb18e9cc33bf9825472ca3181da76afddd9de36
+            drawingPanel.Dock = DockStyle.Fill;
+            drawingPanel.Location = new Point(0, 0);
+            drawingPanel.Margin = new Padding(2);
+            drawingPanel.Name = "drawingPanel";
+            drawingPanel.Size = new Size(560, 306);
+            drawingPanel.TabIndex = 0;
+<<<<<<< HEAD
+=======
+            drawingPanel.MouseDoubleClick += DrawingPanel_MouseDoubleClick;
+>>>>>>> 5cb18e9cc33bf9825472ca3181da76afddd9de36
+            // 
+            // dataTimer
+            // 
+            dataTimer.Interval = 30;
+            dataTimer.Tick += DataTimer_Tick;
+            // 
+            // drawingTimer
+            // 
+            drawingTimer.Interval = 30;
+            drawingTimer.Tick += DrawingTimer_Tick;
+            // 
+<<<<<<< HEAD
+            // MainWindow
+            // 
+            AutoScaleMode = AutoScaleMode.None;
+=======
+            // contextMenuStripSystemTray
+            // 
+            contextMenuStripSystemTray.ImageScalingSize = new Size(36, 36);
+            contextMenuStripSystemTray.Items.AddRange(new ToolStripItem[] { SettingSToolStripMenuItem, ReStartAPPRToolStripMenuItem, ExitWallpaperToolStripMenuItem, AboutUsToolStripMenuItem });
+            contextMenuStripSystemTray.Name = "contextMenuStripSystemTray";
+            contextMenuStripSystemTray.Size = new Size(201, 194);
+            // 
+            // SettingSToolStripMenuItem
+            // 
+            //Image largeIcon = global::AudioVisualizer.Properties.Resources.setting;
+            //SettingSToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            //SettingSToolStripMenuItem.Image = new Bitmap(largeIcon, new Size(16, 16));
+            //SettingSToolStripMenuItem.AutoSize = false;
+            SettingSToolStripMenuItem.Name = "SettingSToolStripMenuItem";
+            SetToolStripMenuItemImage(SettingSToolStripMenuItem,global::AudioVisualizer.Properties.Resources.setting,16,16);
+            SettingSToolStripMenuItem.Size = new Size(200, 22);
+            SettingSToolStripMenuItem.Text = "设置&(S)";
+            SettingSToolStripMenuItem.Click += SettingSToolStripMenuItem_Click;
+            // 
+            // ReStartAPPRToolStripMenuItem
+            // 
+            ReStartAPPRToolStripMenuItem.Name = "ReStartAPPRToolStripMenuItem";
+            SetToolStripMenuItemImage(ReStartAPPRToolStripMenuItem, global::AudioVisualizer.Properties.Resources.reboot, 16, 16);
+            ReStartAPPRToolStripMenuItem.Size = new Size(200, 22);
+            ReStartAPPRToolStripMenuItem.Text = "重启APP&(R)";
+            ReStartAPPRToolStripMenuItem.Click += ReStartAPPRToolStripMenuItem_Click;
+            // 
+            // ExitWallpaperToolStripMenuItem
+            // 
+            ExitWallpaperToolStripMenuItem.Name = "ExitWallpaperToolStripMenuItem";
+            SetToolStripMenuItemImage(ExitWallpaperToolStripMenuItem, global::AudioVisualizer.Properties.Resources.exit, 16, 16);
+            ExitWallpaperToolStripMenuItem.Size = new Size(200, 22);
+            ExitWallpaperToolStripMenuItem.Text = "退出壁纸&(E)";
+            ExitWallpaperToolStripMenuItem.Click += ExitWallpaperToolStripMenuItem_Click;
+            // 
+            // AboutUsToolStripMenuItem
+            // 
+            AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem";
+            SetToolStripMenuItemImage(AboutUsToolStripMenuItem, global::AudioVisualizer.Properties.Resources.VersionInformation, 16, 16);
+            AboutUsToolStripMenuItem.Size = new Size(200, 22);
+            AboutUsToolStripMenuItem.Text = "关于我们&(A)";
+            AboutUsToolStripMenuItem.Click += AboutUsToolStripMenuItem_Click;
+            // 
+            // notifyIconSystemTray
+            // 
+            notifyIconSystemTray.ContextMenuStrip = contextMenuStripSystemTray;
+            notifyIconSystemTray.Icon = (Icon)resources.GetObject("notifyIconSystemTray.Icon");
+            notifyIconSystemTray.Text = "律动壁纸";
+            notifyIconSystemTray.Visible = true;
+            // 
+            // MainWindow
+            // 
+            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleMode = AutoScaleMode.Font;
+>>>>>>> 5cb18e9cc33bf9825472ca3181da76afddd9de36
+            BackColor = SystemColors.ActiveCaptionText;
+            ClientSize = new Size(560, 306);
+            Controls.Add(drawingPanel);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2);
+<<<<<<< HEAD
+            MaximizeBox = false;
+            Name = "MainWindow";
+            StartPosition = FormStartPosition.Manual;
+            Text = "Music Visualizer";
+            FormClosed += MainWindow_FormClosed;
+            Load += MainWindow_Load;
+            ResumeLayout(false);
+            PerformLayout();
+=======
+            Name = "MainWindow";
+            Text = "Music Visualizer";
+            FormClosed += MainWindow_FormClosed;
+            Load += MainWindow_Load;
+            SizeChanged += MainWindow_SizeChanged;
+            contextMenuStripSystemTray.ResumeLayout(false);
+            ResumeLayout(false);
+>>>>>>> 5cb18e9cc33bf9825472ca3181da76afddd9de36
+        }
+
+        #endregion
+        #region 自定义图标大小初始化方法
+        /// <summary>
+        /// 自定义图标大小初始化方法
+        /// </summary>
+        /// <param name="toolStripItem">需要设置的菜单项元素</param>
+        /// <param name="image">图片</param>
+        /// <param name="width">宽度</param>
+        /// <param name="height">高度</param>
+        private void SetToolStripMenuItemImage(ToolStripItem toolStripItem, Image image, int width, int height) {
+            //取消菜单项自动大小
+            toolStripItem.AutoSize = false;
+            //取消菜单项缩放
+            toolStripItem.ImageScaling = ToolStripItemImageScaling.None;
+            //设置菜单项图标大小
+            toolStripItem.Image = new Bitmap(image, new Size(width, height));
+        }
+        #endregion
+        private System.Windows.Forms.Timer dataTimer;
+        private Panel drawingPanel;
+        private System.Windows.Forms.Timer drawingTimer;
+<<<<<<< HEAD
+=======
+        private ContextMenuStrip contextMenuStripSystemTray;
+        private ToolStripMenuItem ExitWallpaperToolStripMenuItem;
+        private NotifyIcon notifyIconSystemTray;
+        private ToolStripMenuItem SettingSToolStripMenuItem;
+        private ToolStripMenuItem ReStartAPPRToolStripMenuItem;
+        private ToolStripMenuItem AboutUsToolStripMenuItem;
+>>>>>>> 5cb18e9cc33bf9825472ca3181da76afddd9de36
+    }
+}

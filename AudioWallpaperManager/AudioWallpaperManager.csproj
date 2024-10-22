@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>FM-channel.ico</ApplicationIcon>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<AssemblyVersion>1.2.2</AssemblyVersion>
+		<FileVersion>1.2.2</FileVersion>
+		<Version>1.2.2</Version>
+		<Platforms>AnyCPU;x64</Platforms>
+		<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+		<Nowarn>$(Nowarn);SYSLIB0011</Nowarn>
+		<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+
+		<SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="app.manifest" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="app.manifest" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Resources\FM-channel.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AudioVisualizer\AudioWallpaper.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
